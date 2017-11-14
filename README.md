@@ -1,16 +1,16 @@
 
 ## Spelling Recommender
 
-Python script providing spelling suggestions comparing an input word
+Provides spelling suggestions by comparing an input string
 against words in a dictionary. 
 
-To find spelling suggestions it minimizes the,
+To find suggestions it minimizes,
 
-* Jaccard distance (with character bigrams and trigrams) as described in 
-[https://en.wikipedia.org/wiki/Jaccard_dist](https://en.wikipedia.org/wiki/Jaccard_dist)
-* Damerau–Levenshtein edit-distance with adjacent transpositions [https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
+* The Jaccard distance as described in 
+[https://en.wikipedia.org/wiki/Jaccard_dist](https://en.wikipedia.org/wiki/Jaccard_dist) (using n-character grams), and
+* The Damerau–Levenshtein edit-distance with adjacent transpositions [https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
 
-of the input string, against words in an `nltk` dictionary
+between the input string and words in an English dictionary
 
 #### Contents 
 * [spelling_recommender.py](spelling_recommender.py) python scrypt with 
