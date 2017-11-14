@@ -47,7 +47,7 @@ def Jaccard_dist(input_ngrams, correct_ngrams):
 
 def JD_suggestions(word, n = 2, k = 3):
   # Provides a spelling recommendation by minimizing Jaccard distance as 
-  # described in  https://en.wikipedia.org/wiki/Jaccard_dist
+  # described in  https://en.wikipedia.org/wiki/Jaccard_index
   #
   # In: word, a word, string
   #     n, n as in ngram, an integer

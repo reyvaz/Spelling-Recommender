@@ -6,10 +6,9 @@ against words in a dictionary.
 
 To find suggestions it minimizes,
 
-* The Jaccard distance as described in <a href="https://en.wikipedia.org/wiki/Jaccard_dist" target="_blank">https://en.wikipedia.org/wiki/Jaccard_dist</a>
-[https://en.wikipedia.org/wiki/Jaccard_dist](https://en.wikipedia.org/wiki/Jaccard_dist) (using n-character grams), and
-* The Damerau–Levenshtein edit-distance with adjacent transpositions
-<a href="https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance" target="_blank">https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance</a>
+* The Jaccard distance as described in
+[https://en.wikipedia.org/wiki/Jaccard_index](https://en.wikipedia.org/wiki/Jaccard_index) (using n-character grams), and
+* The Damerau–Levenshtein edit-distance with adjacent transpositions 
 [https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
 
 between the input string and words in an English dictionary
